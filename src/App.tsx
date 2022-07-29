@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
-import MyCanvas from './MyCanvas';
+import MyCanvas from './components/MyCanvas';
 
 function App() {
   return (
@@ -19,7 +20,13 @@ function App() {
         >
           Learn React
         </a>
-        <MyCanvas />
+        <Link
+          to="/getting-started"
+          className="App-link"
+          
+        >
+          Getting Started
+        </Link>
       </header>
     </div>
   );
