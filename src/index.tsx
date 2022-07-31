@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GettingStarted from './routes/GettingStarted';
+import LoadingModels from './routes/LoadingModels';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="getting-started" element={<GettingStarted />} />
+        <Route path="loading-models" element={<LoadingModels />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

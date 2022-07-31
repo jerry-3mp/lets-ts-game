@@ -1,0 +1,237 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 33062,
+      "max": [
+        16.520700454711914,
+        67.31420135498047,
+        101.7177963256836
+      ],
+      "min": [
+        -16.520700454711914,
+        -67.31420135498047,
+        -101.7177963256836
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 396744,
+      "componentType": 5126,
+      "count": 33062,
+      "max": [
+        0.9999998807907104,
+        0.9999988079071045,
+        0.9999327659606934
+      ],
+      "min": [
+        -0.9999997615814209,
+        -0.9999984502792358,
+        -0.9998537302017212
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 33062,
+      "max": [
+        0.9999734163284302,
+        0.9999730587005615,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9999843835830688,
+        -0.9907649159431458,
+        -0.9999998211860657,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 33062,
+      "max": [
+        0.9623000025749207,
+        0.9980000257492065
+      ],
+      "min": [
+        0.0019000000320374966,
+        0.0019000000320374966
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 192000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Virtual Museums of Małopolska (https://sketchfab.com/WirtualneMuzeaMalopolski)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/vis-p35p-pistol-babe98e5485241f1971c10544f2ff796",
+      "title": "Vis P35(p) pistol"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 768000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 264496,
+      "byteOffset": 768000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 793488,
+      "byteOffset": 1032496,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 528992,
+      "byteOffset": 1825984,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2354976,
+      "uri": "pistol.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/02___Default_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/02___Default_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/02___Default_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "02___Default",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.18
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -6.661338147750939e-16,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        -1.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.0,
+        -1.232595164407831e-31,
+        5.551115123125783e-16,
+        0.0,
+        -0.0002918243408203125,
+        -0.00019073486328124997,
+        -0.00010108947753906254,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "MAK_381_M_Pistolet_Vis.OBJ.cleaner.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
