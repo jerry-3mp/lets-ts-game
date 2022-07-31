@@ -27,6 +27,13 @@ function App() {
         >
           Getting Started
         </Link>
+        <Link
+          to="/loading-models"
+          className="App-link"
+          
+        >
+          Loading Models
+        </Link>
       </header>
     </div>
   );
