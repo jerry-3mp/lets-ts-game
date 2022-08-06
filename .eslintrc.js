@@ -6,6 +6,7 @@ module.exports = {
   'extends': [
     'plugin:react/recommended',
     'google',
+    'plugin:react/jsx-runtime',
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
@@ -20,5 +21,6 @@ module.exports = {
     '@typescript-eslint',
   ],
   'rules': {
+    'require-jsdoc': 'off',
   },
 };
