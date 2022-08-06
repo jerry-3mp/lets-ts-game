@@ -1,8 +1,6 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import {Link} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import MyCanvas from './components/MyCanvas';
 
 function App() {
   return (
@@ -23,14 +21,14 @@ function App() {
         <Link
           to="/getting-started"
           className="App-link"
-          
+
         >
           Getting Started
         </Link>
         <Link
           to="/loading-models"
           className="App-link"
-          
+
         >
           Loading Models
         </Link>

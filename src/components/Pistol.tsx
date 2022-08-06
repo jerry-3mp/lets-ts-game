@@ -6,10 +6,10 @@ source: https://sketchfab.com/3d-models/vis-p35p-pistol-babe98e5485241f1971c1054
 title: Vis P35(p) pistol
 */
 
-import * as THREE from 'three'
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
-import { GLTF } from 'three-stdlib'
+import * as THREE from 'three';
+import React, {useRef} from 'react';
+import {useGLTF} from '@react-three/drei';
+import {GLTF} from 'three-stdlib';
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -21,14 +21,14 @@ type GLTFResult = GLTF & {
 }
 
 export function Pistol(props: JSX.IntrinsicElements['group']) {
-  const { nodes, materials } = useGLTF('/models/pistol/pistol.gltf') as GLTFResult
+  const {nodes, materials} = useGLTF('/models/pistol/pistol.gltf') as GLTFResult;
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI, -Math.PI / 2, 0]}>
         <mesh castShadow receiveShadow geometry={nodes.Object_2.geometry} material={materials['02___Default']} />
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/models/pistol/pistol.gltf')
+useGLTF.preload('/models/pistol/pistol.gltf');
