@@ -25,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .tsx src/"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +45,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.30.1"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/jerry-3mp/lets-ts-game.git",
+  "author": "jerry-3mp <jerry.3mp@gmail.com>",
+  "license": "MIT"
 }
