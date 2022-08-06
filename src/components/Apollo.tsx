@@ -15,7 +15,10 @@ function Apollo() {
     });
   
     console.log(obj);
-    return <primitive object={obj} scale={0.4} />;
+    return <primitive object={obj} scale={0.4}>
+    <ambientLight />
+    <pointLight position={[0, 0, 0]} />
+    </primitive>;
 }
 
 export default Apollo;

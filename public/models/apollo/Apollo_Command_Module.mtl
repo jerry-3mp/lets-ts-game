@@ -10,7 +10,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd apollo_exterior-150k-4096-obj\\x3d-cm-exterior-shell-90k-uvs-150k-4096-diffuse.jpg
+map_Kd x3d-cm-exterior-shell-90k-uvs-150k-4096-diffuse.jpg
 
 newmtl ml.001
 Ns 0.000000
@@ -21,7 +21,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd apollo_exterior-150k-4096-obj\\x3d-cm-exterior-top-160k-uvs-150k-4096-diffuse.jpg
+map_Kd x3d-cm-exterior-top-160k-uvs-150k-4096-diffuse.jpg
 
 newmtl ml.002
 Ns 0.000000
@@ -32,7 +32,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd apollo_interior-medium_resolution-obj\\x3d-cm-interior-hull-comp-4k_x4096.jpg
+map_Kd x3d-cm-interior-hull-comp-4k_x4096.jpg
 
 newmtl ml.003
 Ns 0.000000
@@ -43,7 +43,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd apollo_interior-medium_resolution-obj\\x3d-cm-interior-panel-comp-4k_x4096.jpg
+map_Kd x3d-cm-interior-panel-comp-4k_x4096.jpg
 
 newmtl ml.004
 Ns 0.000000
@@ -54,7 +54,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd apollo_interior-medium_resolution-obj\\x3d-cm-interior-seats-comp-4k_x4096.jpg
+map_Kd x3d-cm-interior-seats-comp-4k_x4096.jpg
 
 newmtl ml.005
 Ns 0.000000
@@ -65,4 +65,4 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd apollo_interior-medium_resolution-obj\\x3d-cm-interior-graffiti-comp-2k_x2048.jpg
+map_Kd x3d-cm-interior-graffiti-comp-2k_x2048.jpg
