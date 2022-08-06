@@ -46,6 +46,14 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.21.0"
-  }
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.30.1"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/jerry-3mp/lets-ts-game.git",
+  "author": "jerry-3mp <jerry.3mp@gmail.com>",
+  "license": "MIT"
 }
