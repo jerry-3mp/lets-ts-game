@@ -32,6 +32,13 @@ function App() {
         >
           Loading Models
         </Link>
+        <Link
+          to="/basic-world"
+          className="App-link"
+
+        >
+          Basic World
+        </Link>
       </header>
     </div>
   );
