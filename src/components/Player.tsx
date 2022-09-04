@@ -4,6 +4,7 @@ import {useFrame, useThree} from '@react-three/fiber';
 import {Vector3} from 'three';
 import {useKeyboardControls} from '../hooks/useKeyboardControls';
 import {toFixedNumber} from '../utils/NumberUtils';
+import {FPVControls} from './FPVControls';
 
 const SPEED = 6;
 
