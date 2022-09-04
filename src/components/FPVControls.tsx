@@ -1,23 +1,30 @@
+/* eslint-disable max-len */
 import {useEffect} from 'react';
-import {PointerLockControls as PointerLockControlsImpl}
-  from 'three/examples/jsm/controls/PointerLockControls';
-import {useThree, extend} from '@react-three/fiber';
+import {PointerLockControls} from 'three/examples/jsm/controls/PointerLockControls';
+import {useThree, extend, Node} from '@react-three/fiber';
 import {useRef} from 'react';
 
-extend({PointerLockControlsImpl});
+extend({PointerLockControls});
 
-export const FPVControls = (props) => {
+declare module '@react-three/fiber' {
+  // eslint-disable-next-line no-unused-vars
+  interface ThreeElements {
+    pointerLockControls: Node<PointerLockControls, typeof PointerLockControls>
+  }
+}
+
+export const FPVControls = (props: JSX.IntrinsicElements['pointerLockControls']) => {
   const {camera, gl} = useThree();
-  const controls = useRef();
+  const controls = useRef<PointerLockControls>(null);
 
   useEffect(() => {
     document.addEventListener('click', () => {
-      controls.current.lock();
+      controls.current?.lock();
     });
   }, []);
 
   return (
-    <pointerLockControlsImpl
+    <pointerLockControls
       ref={controls}
       args={[camera, gl.domElement]}
       {...props}
