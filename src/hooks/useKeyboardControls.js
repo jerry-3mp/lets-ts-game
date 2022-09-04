@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react';
-import { useStore } from './useStore';
+import {useState, useEffect} from 'react';
 
 function actionByKey(key) {
   const keys = {
@@ -30,7 +29,6 @@ export const useKeyboardControls = () => {
     moveRight: false,
     jump: false,
   });
-  const [setTexture] = useStore((state) => [state.setTexture]);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -62,7 +60,7 @@ export const useKeyboardControls = () => {
       document.removeEventListener('keydown', handleKeyDown);
       document.removeEventListener('keyup', handleKeyUp);
     };
-  }, [setTexture]);
+  });
 
   return movement;
 };
