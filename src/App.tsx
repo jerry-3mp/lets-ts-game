@@ -39,6 +39,13 @@ function App() {
         >
           Basic World
         </Link>
+        <Link
+          to="/fpv-movement"
+          className="App-link"
+
+        >
+          FPV Movement
+        </Link>
       </header>
     </div>
   );
