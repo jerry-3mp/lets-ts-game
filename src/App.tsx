@@ -46,6 +46,13 @@ function App() {
         >
           FPV Movement
         </Link>
+        <Link
+          to="/tpv-movement"
+          className="App-link"
+
+        >
+          TPV Movement
+        </Link>
       </header>
     </div>
   );
