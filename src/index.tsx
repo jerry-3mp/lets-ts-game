@@ -8,6 +8,7 @@ import GettingStarted from './routes/GettingStarted';
 import LoadingModels from './routes/LoadingModels';
 import BasicWorld from './routes/BasicWorld';
 import FPVMovement from './routes/FPVMovement';
+import TPVMovement from './routes/TPVMovement';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
@@ -21,6 +22,7 @@ root.render(
           <Route path="loading-models" element={<LoadingModels />} />
           <Route path="basic-world" element={<BasicWorld />} />
           <Route path="fpv-movement" element={<FPVMovement />} />
+          <Route path="tpv-movement" element={<TPVMovement />} />
         </Routes>
       </BrowserRouter>
     </React.StrictMode>,
