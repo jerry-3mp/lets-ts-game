@@ -9,6 +9,7 @@ import LoadingModels from './routes/LoadingModels';
 import BasicWorld from './routes/BasicWorld';
 import FPVMovement from './routes/FPVMovement';
 import TPVMovement from './routes/TPVMovement';
+import CharacterController from './routes/CharacterController';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
@@ -23,6 +24,7 @@ root.render(
           <Route path="basic-world" element={<BasicWorld />} />
           <Route path="fpv-movement" element={<FPVMovement />} />
           <Route path="tpv-movement" element={<TPVMovement />} />
+          <Route path="character-controller" element={<CharacterController />} />
         </Routes>
       </BrowserRouter>
     </React.StrictMode>,

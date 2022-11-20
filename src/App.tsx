@@ -53,6 +53,13 @@ function App() {
         >
           TPV Movement
         </Link>
+        <Link
+          to="/character-controller"
+          className="App-link"
+
+        >
+          Character Controller
+        </Link>
       </header>
     </div>
   );
